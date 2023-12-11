@@ -7,3 +7,44 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+2.times do
+  card.create(number: 1)
+end
+
+2.times do
+  card.create(number: 2)
+end
+
+2.times do
+  card.create(number: 3)
+end
+
+2.times do
+  card.create(number: 4)
+end
+
+2.times do
+  card.create(number: 5)
+end
+
+2.times do
+  card.create(number: 6)
+end
+
+2.times do
+  card.create(number: 7)
+end
+
+2.times do
+  card.create(number: 8)
+end
+
+2.times do
+  card.create(number: 9)
+end
+
+2.times do
+  card.create(number: 10)
+end
+
+Card.create(number: 0) #mistigri
